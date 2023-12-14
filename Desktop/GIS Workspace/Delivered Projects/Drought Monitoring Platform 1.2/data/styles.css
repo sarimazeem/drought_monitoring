@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#top-div {
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Add a gradient background */
+    background: linear-gradient(to bottom, #8a5a02, #5a1403);
+}
+
+#hello-text {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Text shadow effect */
+}
+
+/* Style for the NDMA logo div */
+#ndma-logo {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    height: 100%;
+    /* Add a transparent background color */
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#ndma-logo img {
+    height: 100%;
+    width: auto;
+    /* Maintain aspect ratio */
+}
+
+#map { 
+    height: 910px;
+    width:900px;
+    position: absolute;
+    top:145px;
+    left: 20px;
+}
+
+#sub-heading1 {
+    position: absolute;
+    top: 150px;
+    left:75px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+
+    font-weight: bold;
+    z-index: 3000;
+
+    /* Text shadow effect */
+}
+
+#lst{
+    position: absolute;
+    top: 145px;
+    right: -20px;
+    z-index: 3000;
+}
+
+#spei{
+    position: absolute;
+    top: 145px;
+    right: 500px;
+
+}
+
+#lulc{
+    position: absolute;
+    top: 600px;
+    right: 500px;
+
+}
+
+#ndvi{
+    position: absolute;
+    top: 600px;
+    right: -20px;
+    z-index: 3000;
+}
+
+
+/* Style for the NDMA logo div */
+#logo {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    height: 100%;
+    /* Add a transparent background color */
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#logo img {
+    height: 100%;
+    width: auto;
+    /* Maintain aspect ratio */
+}
+
+#ndvi-heading{
+    position: absolute;
+    top: 620px;
+    right:140px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-weight: bold;
+    z-index: 13000;
+}
+
+#lst-heading{
+    position: absolute;
+    top: 160px;
+    right:95px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-weight: bold;
+    z-index: 13000;
+}
+
+#spei-heading{
+    position: absolute;
+    top: 160px;
+    right:620px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-weight: bold;
+    z-index: 13000;
+}
+
+#lulc-heading{
+    position: absolute;
+    top: 620px;
+    right:645px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-weight: bold;
+    z-index: 13000;
+}
+
+
+
+/* Style for the Legend */
+.legend {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Style for Legend Items */
+  .legend i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  /* Additional styling for Legend Text */
+  .legend span {
+    line-height: 20px;
+  }
+  

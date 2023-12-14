@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+    <link rel="stylesheet" href="data/styles.css">
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <script src="/js/leaflet-0.7.2/leaflet.ajax.min.js"></script>
+    <script src="data/district.js"></script>
+    <script src="data/pk_boundary.js"></script>
+
+    <script src="https://code.earthengine.google.com/google-earth-engine.js"></script>
+
+    <title>Drought Monitoring Platform</title>
+
+</head>
+<body>
+    <div id="top-div">
+        <div id="hello-text">
+            NATIONAL DROUGHT MONITORING PLATFORM
+        </div>
+        <!-- Div for the NDMA logo image -->
+        <div id="ndma-logo">
+            <img src="data/NDMA_Pakistan_Logo.jpg" alt="NDMA Logo">
+        </div>
+        <div id="logo">
+            <img src="data/logo.gif" alt="Drought">
+        </div>
+    </div>
+    <div id="sub-heading1">
+        REGIONS SUSCEPTIBLE TO MILD DROUGHT | DEC-FEB&nbsp;
+    </div>
+
+    <div id="ndvi-heading">
+        NORMALIZED DIFFERENCE <br>&nbsp&nbsp&nbsp&nbsp&nbsp VEGETATION INDEX</div>
+
+    <div id="lst-heading">
+        LAND SURFACE TEMPERATURE
+    </div>
+
+    <div id="lulc-heading">
+        LAND USE LAND COVER
+    </div>
+
+    <div id="spei-heading">
+        STANDARDIZED PRECIPITATION <br> EVAPOTRANSPIRATION INDEX
+    </div>
+
+    <div id ='ndvi'>
+        <iframe src="Maps/NDVI_Map.html" height="450" width="500"></iframe>
+    </div> 
+
+    <div id ='lst'>
+        <iframe src="Maps/LST_Map.html" height="450" width="500"></iframe>
+    </div>
+
+    <div id ='lulc'>
+        <iframe src="Maps/LULC_Map.html" height="450" width="500"></iframe>
+    </div>
+
+    <div id ='spei'>
+        <iframe src="Maps/SPEI_Map.html" height="450" width="500"></iframe>
+    </div> 
+    
+    <div id="map"></div>
+
+    <script src="data/script.js"></script>
+
+</body>
+</html>
